@@ -1,0 +1,4 @@
+[core]
+    remote = nas
+['remote "nas"']
+    url = ../ssh::/10.1.25.212/mnt/team_2/dvc_simclr
