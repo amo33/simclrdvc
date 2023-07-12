@@ -1,4 +1,8 @@
 [core]
     remote = nas
 ['remote "nas"']
-    url = ../ssh::/10.1.25.212/mnt/team_2/dvc_simclr
+    url = ssh://10.1.25.212/mnt/team_2/dvc_simclr
+    user = rtx4090
+    port = 22
+    password = neowine1004
+    keyfile = ../../rtx4090.key
